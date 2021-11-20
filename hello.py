@@ -1,5 +1,6 @@
 def greeting(name: str) -> None:
-    print("Hello, {name}".format(name=name))
+    """Greeting function"""
+    print("Hi, {name}".format(name=name))
 
 
 if __name__ == "__main__":
